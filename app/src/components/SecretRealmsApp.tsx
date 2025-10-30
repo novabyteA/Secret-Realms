@@ -14,7 +14,7 @@ type Coordinate = {
 type EncryptedPosition = [string, string];
 
 const GRID_SIZE = 10;
-const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
+// const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000';
 
 function generateGrid() {
   return Array.from({ length: GRID_SIZE }, (_, rowIndex) =>
@@ -44,7 +44,7 @@ export function SecretRealmsApp() {
   const [isGranting, setIsGranting] = useState(false);
   const [refreshKey, setRefreshKey] = useState(0);
 
-  const isContractConfigured = CONTRACT_ADDRESS !== ZERO_ADDRESS;
+  const isContractConfigured = true;
 
   const {
     data: hasJoinedData,
