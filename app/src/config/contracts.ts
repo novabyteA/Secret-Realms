@@ -1,5 +1,5 @@
 // SecretRealmsGame contract configuration
-export const CONTRACT_ADDRESS = '0x0000000000000000000000000000000000000000';
+export const CONTRACT_ADDRESS = '0xF4429AE5a741672fE3F54772779b867E8da08785';
 
 export const CONTRACT_ABI = [
   {
